@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 235px;
+    flex-direction: column;
+}
+
+.auth-input {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    width: 200px;
+}
+
+.btn-auth{
+    background: #5d8ffc;
+    color: #fff;
+    border: 1px solid #5d8ffc;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    cursor: pointer;
+}
+
+.container__Authorization {
+    text-align: center;
+}
+
+
