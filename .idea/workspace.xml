@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38a07856-0110-4d67-a086-6ab9c4d448f3" name="Default Changelist" comment="" />
+    <list default="true" id="38a07856-0110-4d67-a086-6ab9c4d448f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.firebaserc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/TestTaskNotes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/9895197a7a3bb9fbd1ea2daa09a035da.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundle.080983384f1d80970fd2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/d5048b9a051f69aa9f4773ed1edb6816.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreateNotes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Notes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/cancel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/authorization.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/openWindow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1mX4bPpUoTb6RauupA0lk3XI2DX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,11 +74,22 @@
       <updated>1609626674570</updated>
       <workItem from="1609626676622" duration="5051000" />
       <workItem from="1610027648799" duration="116000" />
-      <workItem from="1610048238909" duration="79100000" />
+      <workItem from="1610048238909" duration="79473000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
