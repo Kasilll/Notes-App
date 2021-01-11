@@ -2,7 +2,7 @@
 
 HTML/CSS/Webpack/JS/Firebase
 
-Demo : https://react-native-todoapp-827b6.web.app
+Demo : https://react-native-todoapp-827b6.firebaseapp.com
 
 В ходе проделанной работы было разработано приложение по добавлению и сохранению заметок. 
 Приложение содержит:
