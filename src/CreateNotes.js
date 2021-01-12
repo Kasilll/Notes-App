@@ -30,7 +30,7 @@ export function CreateNotes() {
 
         function dayPassedRender() {
             const dateNow = new Date()
-            const dayPasse = Math.floor((dateNow - dateCreate) / (24*3600*1000*7))
+            const dayPasse = Math.floor((dateNow - dateCreate) / (1000 * 3600 * 24))
 
             document.querySelectorAll('.' + id)[2].innerText = `Дней : ${dayPasse}`
         }

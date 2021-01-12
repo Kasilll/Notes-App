@@ -69,7 +69,8 @@ function RenderNotesAfterAuth(notes) {
         const dateCreate = new Date(notes[i].dataUTC)
         dateCreate.setHours(dateCreate.getHours() + new Date().getTimezoneOffset()/60)
 
-        const dayPass = Math.floor((dateNow - dateCreate) / (24*3600*1000*7))// сколько прошло дней
+        const dayPass = Math.floor((dateNow - dateCreate) / (1000 * 3600 * 24))// сколько прошло дней
+
         const minutPass = Math.floor((dateNow.getTime() - dateCreate.getTime())/60000) // сколько прошло минут
         const hoursPass = Math.floor((dateNow - dateCreate) / (1000 * 60 * 60))//сколько прошло часов
 
@@ -86,7 +87,7 @@ function RenderNotesAfterAuth(notes) {
         function dayPassedRender() {
             const dateNow = new Date()
             dateNow.setHours(dateNow.getHours() + new Date().getTimezoneOffset()/60)
-            const dayPasse = Math.floor((dateNow - dateCreate) / (24*3600*1000*7))
+            const dayPasse = Math.floor((dateNow - dateCreate) / (1000 * 3600 * 24))
 
             document.querySelectorAll('.' + id)[2].innerText = `Дней : ${dayPasse}`
         }
@@ -95,6 +96,7 @@ function RenderNotesAfterAuth(notes) {
             const dateNow = new Date()
             dateNow.setHours(dateNow.getHours() + new Date().getTimezoneOffset()/60)
             const hoursPasse = Math.floor((dateNow - dateCreate) / (1000 * 60 * 60))
+
 
             document.querySelectorAll('.' + id)[1].innerText = `Часов : ${hoursPasse}`
         }
@@ -118,7 +120,7 @@ function RenderNotesAfterAuth(notes) {
         document.querySelector('.app__Notes').append(note)
 
         setInterval(minutesPassedrender, 59000)
-        setInterval(dayPassedRender,350000000)
+        setInterval(dayPassedRender,3500000)
         setInterval(HoursPassedRender, 3500000)
     }
 }
